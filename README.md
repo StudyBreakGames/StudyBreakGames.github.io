@@ -10,8 +10,6 @@ StudyBreakGames is a curated collection of high-quality browser games designed f
 
 Instead of trying to host thousands of games, StudyBreakGames aims to build a smaller library of games that are genuinely fun, polished, accessible, and worth playing.
 
-Think **Lexus over Toyota** — fewer games, better games.
-
 Every game should earn its place on the platform.
 
 ## Planned Features
