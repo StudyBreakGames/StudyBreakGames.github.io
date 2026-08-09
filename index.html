@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyBreakGames</title>
+    <meta name="description" content="StudyBreakGames — curated browser games for your study breaks.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b0b0f;
+            color: #ffffff;
+            line-height: 1.5;
+        }
+
+        header {
+            border-bottom: 1px solid #222228;
+            padding: 20px 40px;
+        }
+
+        .nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: #888894;
+        }
+
+        nav a {
+            color: #aaaab5;
+            text-decoration: none;
+            margin-left: 28px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        .hero {
+            max-width: 700px;
+            margin-bottom: 70px;
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 7vw, 72px);
+            line-height: 1;
+            letter-spacing: -3px;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            color: #9999a5;
+            font-size: 18px;
+            max-width: 550px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .section-header h2 {
+            font-size: 22px;
+        }
+
+        .section-header span {
+            color: #777781;
+            font-size: 13px;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .game-card {
+            min-height: 180px;
+            border: 1px solid #222228;
+            border-radius: 12px;
+            background: #111116;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555560;
+            font-size: 14px;
+        }
+
+        .game-card:hover {
+            border-color: #44444d;
+        }
+
+        footer {
+            border-top: 1px solid #222228;
+            margin-top: 80px;
+            padding: 30px 40px;
+            color: #666670;
+            font-size: 13px;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                padding: 18px 20px;
+            }
+
+            nav a {
+                margin-left: 14px;
+            }
+
+            main {
+                padding: 60px 20px;
+            }
+
+            .hero h1 {
+                letter-spacing: -2px;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+            <div class="logo">
+                StudyBreak<span>Games</span>
+            </div>
+
+            <nav>
+                <a href="#">Games</a>
+                <a href="#">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Take a break.<br>Play something good.</h1>
+
+            <p>
+                A curated collection of high-quality browser games,
+                made for when you need a quick break from studying.
+            </p>
+        </section>
+
+        <section>
+            <div class="section-header">
+                <h2>Featured Games</h2>
+                <span>Coming soon</span>
+            </div>
+
+            <div class="games">
+
+                <div class="game-card">
+                    Game 01
+                </div>
+
+                <div class="game-card">
+                    Game 02
+                </div>
+
+                <div class="game-card">
+                    Game 03
+                </div>
+
+                <div class="game-card">
+                    Game 04
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© 2026 StudyBreakGames</span>
+            <span>Quality over quantity.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
